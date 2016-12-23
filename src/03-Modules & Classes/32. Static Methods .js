@@ -8,3 +8,4 @@ class Helper{
     }
 }
 Helper.logTwice('static methods');
+Helper.helloWorld();
