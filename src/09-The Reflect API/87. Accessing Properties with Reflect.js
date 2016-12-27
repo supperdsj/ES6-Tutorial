@@ -29,3 +29,6 @@ console.log(Reflect.set(person, 'name', 'dsj'));
 console.log(Reflect.set(person, 'name', 'm1', mum));
 console.log(person.name);
 console.log(mum._name);
+console.log(Reflect.has(person, 'name'));
+console.log(Reflect.has(mum, 'name'));
+console.log(Reflect.has(mum, '_name'));
