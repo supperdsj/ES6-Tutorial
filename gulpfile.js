@@ -1,10 +1,8 @@
-var gulp = require('gulp'),
+let gulp = require('gulp'),
     concat = require('gulp-concat'),
-    rename = require('gulp-rename'),
-    jshint = require('gulp-jshint'),
-    uglify = require('gulp-uglify');
+    rename = require('gulp-rename');
 // Load plugins
-var $ = require('gulp-load-plugins')();
+let $ = require('gulp-load-plugins')();
 
 /* es6 */
 gulp.task('es6', function() {
